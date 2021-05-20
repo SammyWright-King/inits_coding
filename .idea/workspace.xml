@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a336c71d-096c-4963-9b5a-3ae65836cb30" name="Default Changelist" comment="" />
+    <list default="true" id="a336c71d-096c-4963-9b5a-3ae65836cb30" name="Default Changelist" comment="adding required files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_05_20_013734_create_customers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_05_20_013734_create_customers_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_05_20_013855_create_billings_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_05_20_013855_create_billings_table.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -149,11 +171,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621471551670</updated>
-      <workItem from="1621471552884" duration="1499000" />
+      <workItem from="1621471552884" duration="4500000" />
     </task>
+    <task id="LOCAL-00001" summary="adding required files">
+      <created>1621474894658</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621474894658</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adding required files" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding required files" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1621474924877">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1621474924877" />
   </component>
 </project>

@@ -14,7 +14,17 @@ class CreateBillingsTable extends Migration
     public function up()
     {
         Schema::create('billings', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
+            $table->integer('shipping_id')->unsigned();
+            $table->float('base_fare');
+            $table->float('weighted_cost');
+            $table->float('origin_cost');
+            $table->float('calculated_sum');
+            $table->float('tax_per')->default('10');
+            $table->float('total_pay');
+            $table->enum('status', ['0, 1']);
+
+            $table->foreign('shipping_id')->references('id')->on('shipping_details')->cascadeOnDelete();
             $table->timestamps();
         });
     }
