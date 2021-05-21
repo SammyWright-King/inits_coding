@@ -19,7 +19,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a336c71d-096c-4963-9b5a-3ae65836cb30" name="Default Changelist" comment="starting implementation of the project">
+    <list default="true" id="a336c71d-096c-4963-9b5a-3ae65836cb30" name="Default Changelist" comment="my submission on inits_coding exercise">
+      <change afterPath="$PROJECT_DIR$/app/Mail/ShippingOrder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/paystack.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/inits.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/emails/orders/shipped.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/button.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/layout.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/message.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/panel.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/subcopy.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/table.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/html/themes/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/text/button.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/text/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/text/header.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/text/layout.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/text/message.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/text/panel.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/text/subcopy.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/mail/text/table.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inits_coding.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inits_coding.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -170,6 +191,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\transfer\inits_coding\database" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\transfer\inits_coding\public\assets\images" />
       <recent name="C:\xampp\htdocs\transfer\inits_coding\public\assets" />
@@ -190,7 +214,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621471551670</updated>
-      <workItem from="1621471552884" duration="41874000" />
+      <workItem from="1621471552884" duration="42218000" />
     </task>
     <task id="LOCAL-00001" summary="adding required files">
       <created>1621474894658</created>
@@ -213,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621510207653</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="my submission on inits_coding exercise">
+      <created>1621581597369</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621581597369</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,16 +265,17 @@
     <MESSAGE value="adding required files" />
     <MESSAGE value="creating migration for the application" />
     <MESSAGE value="starting implementation of the project" />
-    <option name="LAST_COMMIT_MESSAGE" value="starting implementation of the project" />
+    <MESSAGE value="my submission on inits_coding exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="my submission on inits_coding exercise" />
   </component>
   <component name="WindowStateProjectService">
     <state x="794" y="443" key="NewPhpFileDialog" timestamp="1621565067211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621565067211" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1621510213045">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1621581599651">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1621510213045" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1621581599651" />
   </component>
 </project>
