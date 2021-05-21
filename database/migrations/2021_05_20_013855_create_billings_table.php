@@ -22,7 +22,8 @@ class CreateBillingsTable extends Migration
             $table->float('calculated_sum');
             $table->float('tax_per')->default('10');
             $table->float('total_pay');
-            $table->enum('status', ['0, 1']);
+            $table->string('ref')->nullable();
+            $table->smallInteger('status');
 
             $table->foreign('shipping_id')->references('id')->on('shipping_details')->cascadeOnDelete();
             $table->timestamps();

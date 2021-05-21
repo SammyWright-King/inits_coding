@@ -18,4 +18,6 @@ use App\Http\Controllers\CustomerController;
 //    return view('index');
 //});
 Route::get('/', [CustomerController::class, 'create']);
-Route::post('/shipping/add', [CustomerController::class, 'store'])->name('save');
+Route::post('/shipping/order', [CustomerController::class, 'store'])->name('save');
+Route::post('/pay', [CustomerController::class, 'redirectToGateway'])->name('pay');
+Route::get('/paystack/callback', [CustomerController::class, 'handleCallBack']);

@@ -11,6 +11,8 @@ class Shipping extends Model
 
     protected $fillable = ['product', 'description', 'pickup', 'destination', 'weight', 'shipping_mode'];
 
+    protected $table = 'shipping_details';
+
     public function customer(){
         return $this->belongsTo(Customer::class);
     }
